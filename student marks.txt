@@ -1,0 +1,38 @@
+3. Student marks
+
+package arrayex;
+
+public class marks{
+
+string[] name;
+
+public static void accept(){
+
+int [] marks={86,78,98,68,45,35,97,100,75,90};
+ 
+name=new string[10];
+
+string[] name={"latha","geetha","malathi","lakshmi","pavithra","xyz","abc","manasa","sugnan","bhargavi"};
+
+for(int i=0;i<10;i++)
+{
+for(int j=0;j<10;j++)
+{
+if(marks[i]>=100)
+{
+system.out.println("name of student who got highest marks"+name[j]);
+}
+}
+}
+}
+public static void display (){
+
+system.out.println("name of student who got highest marks"+name[j]);
+}
+
+public static void main(string [] args)
+{
+accept();
+display();
+}
+}
